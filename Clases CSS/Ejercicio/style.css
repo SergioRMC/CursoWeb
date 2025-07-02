@@ -1,0 +1,45 @@
+body
+{
+    background: fff;
+    font-family: sans-serif;
+    color: white;
+}
+
+.card
+{
+    background: coral;
+    text-align: center;
+    width: 300px;
+    margin-top: 50px;
+    margin: auto;
+    padding: 20px 10px;
+    box-shadow: 0 0 50px #0007;
+    border-radius: 8px;
+}
+
+.card_title
+{
+    font-size: 22px;
+}
+
+.card_subtitle
+{
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.card_content
+{
+    font-size: 9px;
+    padding: 10px;
+    padding-bottom: 0;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.card_img
+{
+    width: 100px;
+    border-radius: 50%;
+}

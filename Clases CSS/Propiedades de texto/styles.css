@@ -1,0 +1,19 @@
+
+/* etiqueta Strong para resaltar una palabra, ayuda al SEO */
+p
+{
+    color: red;
+    font-family: Noto;
+    font-size: 12px;
+    /* bold es como negrita, tiene un valor de 700 - bolder es aun mas, seria un 900 */
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    text-decoration: line-through;
+    /* altura de la linea */
+    line-height: 1.4;
+    /* espacio entre letras */
+    letter-spacing: 2px;
+    /* transformacion del texto */
+    text-transform: uppercase;
+}

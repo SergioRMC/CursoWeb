@@ -1,0 +1,18 @@
+
+/* selector element - usados para una etiqueta */
+li
+{
+    color: red;
+}
+
+/* class selector - aca llamamos a la clase que esta en el html */
+.Faltante
+{
+    color: blue;;
+}
+
+/* id selector - SOLO SE USA PARA 1 ELEMENTO, NO PARA MULTIPLES. ES UNICO */
+#ingrediente-secreto
+{
+    color: orange;
+}

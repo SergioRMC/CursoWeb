@@ -1,0 +1,18 @@
+.box
+{
+    width: 800px;
+    height: 600px;
+    background: black;
+    margin: 20px;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9iwohC19j0fnSoxOlcreTCiJ3urD60Mn12w&s); */
+    /* top: 0; pone el box arriba del todo */
+    /* background-size: contain; */
+    /* background-position: center; centra la imagen */
+    /* background-repeat: no-repeat; */
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9iwohC19j0fnSoxOlcreTCiJ3urD60Mn12w&s) top / cover fixed #6fa;
+}
+
+body
+{
+    background-color: ghostwhite;
+}

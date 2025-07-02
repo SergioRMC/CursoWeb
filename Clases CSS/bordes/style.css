@@ -1,0 +1,14 @@
+div
+{
+    background: red;
+    width: 150px;
+    margin: auto;
+    font-family: sans-serif;
+    text-align: center;
+
+    /* border-width: 3px;
+    border-color: black;
+    border-style: solid;*/
+    border: 3px solid black;
+    border-radius: 6px; 
+}

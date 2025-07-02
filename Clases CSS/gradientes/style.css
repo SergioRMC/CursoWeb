@@ -1,0 +1,14 @@
+.box
+{
+    width: 600px;
+    height: 400px;
+    background: linear-gradient(red, transparent);
+    margin: 0;
+    width: 100%;
+}
+
+body
+{
+    background: orange;
+    margin: 0;
+}

@@ -1,0 +1,33 @@
+body
+{
+    margin: 0;
+}
+
+.box
+{
+    width: 300px;
+    height: 400px;
+    background: #e2e2e2;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 30px 0 black;
+    text-align: center;
+}
+
+h2
+{
+    padding: 20px;
+    font-family: sans-serif;
+    color: #444;
+    text-shadow: 0 0 30 red;
+}
+
+p
+{
+    padding: 20px;
+    font-family: sans-serif;
+    color: #444;
+    text-shadow: 0 0 30 orange;
+    line-height: 1.4;
+    font-size: 13px
+}
