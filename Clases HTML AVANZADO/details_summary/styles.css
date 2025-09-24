@@ -1,0 +1,13 @@
+body{
+    background: #666;
+}
+details{
+    background: transparent;
+    border: 1px solid #fff;
+    font-size: 1em;
+
+}
+summary{
+    background-color: #ddd;
+    font-size: 2em;
+}
