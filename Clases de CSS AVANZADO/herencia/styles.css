@@ -1,0 +1,11 @@
+
+h1{
+    color: #f00;
+}
+h2{
+    color: inherit;
+}
+body{
+    color: #0f0;
+    font-family: sans-serif;
+}
