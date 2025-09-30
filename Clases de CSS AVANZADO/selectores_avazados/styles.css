@@ -1,0 +1,20 @@
+/*Los comentarios de css son así */
+/* selector por atributo*/
+img[src^='paisaje'] {
+    width: 100%;
+}
+/* selector por hijo*/
+li{
+    color:#0f0
+}
+ul > li{
+    color:#000
+}
+/*selector adayacente osea que viene justo despues */
+h1 + p{
+    font-weight: bold;
+}
+/**selector de hermanos generales */
+h1 ~ p{
+    font-weight: bold;
+}
