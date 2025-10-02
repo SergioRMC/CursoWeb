@@ -23,6 +23,15 @@ header{
 }
 .menu{
     list-style: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
 }
 
 .imagenes{
@@ -30,6 +39,13 @@ header{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+#install{
+    min-width: 50%;
+    max-width: 50%;
+}
+#visual-web{
+    width: 100%;
 }
 .FaQ{
     margin: 30px;
