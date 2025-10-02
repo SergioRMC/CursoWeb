@@ -1,0 +1,74 @@
+body{
+    font-family: sans-serif;
+    background-color: #3f4b3b;
+    color: black;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+main{
+    background-color: #dad6d6;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 30px;
+    box-shadow: 0 0 45px #0009;
+
+}
+header{
+    width: 100%;
+    background-color: #5a9367;
+    text-align: center;
+}
+.menu{
+    list-style: none;
+}
+
+.imagenes{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+summary{
+    background-color: #dad6d6;
+}
+details[open]{
+    background-color: #5a9367;
+    border: 2px solid black;
+}
+form{
+    background-color: #5cab7d;
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    padding: 10px;
+    border: solid 2px #5a9367;
+    border-radius: 5px;
+    box-shadow: 0 0 45px #44633F;
+}
+input, textarea{
+    width: 100%;
+    box-sizing: border-box;
+}
+fieldset{
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.enviar-form{
+    width: 30%;
+    display: block;
+    margin: 30px auto;
+    margin-bottom: 40px;
+}
+input::placeholder{
+    background-color: #EBF0EA;
+}
+input:valid{
+    color: green;
+}
+input:invalid{
+    color: red;
+}
+

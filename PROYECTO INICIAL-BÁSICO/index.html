@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>PyInstrument</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#introduccion">INTRODUCCIÓN</a></li>
+                <li><a href="#explicacion">EXPLICACION</a></li>
+                <li><a href="#fotografias">FOTOGRAFIAS</a></li>
+                <li><a href="#faq">PREGUNTAS FRECUENTES</a></li>
+                <li><a href="#contacto">FORMULARIO DE CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 id="titulo1">BIENVENIDOS A PYINSTRUMENT</h1>
+    <main>
+        
+        <section>
+            <h2 id="introduccion">INTRODUCCIÓN</h2>
+            <p>
+                Pyinstrument es un profiler encargado de ayudar en la optimización de código, localizando incrementos en
+                los
+                tiempos de ejecución y visualizando así en que partes del código deberíamos de poner foco a la hora de
+                la
+                optimización.
+                Esta herramienta se utiliza para encontrar cuellos de botella donde el rendimiento de las aplicaciones
+                disminuye y esto lo hace de una manera rápida y clara.
+                Es un programa activo durante el tiempo de ejecución que ofrece perfiles estadísticos, lo que quiere
+                decir
+                es que recoge muestras del programa en intervalos durante la misma ejecución para estimar el tiempo
+                empleado
+                en cada parte. (ComputerWorld, 2022)
+            </p>
+        </section>
+        <section>
+            <h2 id="explicacion">EXPLICACIÓN</h2>
+            <h3>Para que sirve</h3>
+            <ul>
+                <li>Optimización de código</li>
+                <li>Localización de cuellos de botella</li>
+                <li>Analisais de funciones principales</li>
+                <li>Visualización de tiempos de ejecución</li>
+
+            </ul>
+            <h3>Donde utilizarlo</h3>
+            <p>
+                Este profiler puede ser utilizado en la ejecución de un script o implementado en el código. Algunas de
+                las tecnologías en las que se puede utilizar es en Django, Flask y FastAPI, está última en la cual nos
+                centraremos ya que la intención de este pequeño análisis está orientada a incluirlo es los
+                microservicios que desarrollamos.
+                Ofrece poca sobrecargar en FastAPI y nos da una visión clara y real del tiempo y en donde se localiza
+                ese tiempo invertido en la ejecución del micro
+
+            </p>
+        </section>
+        <section>
+            <h3 id="fotografias">FOTOGRAFIAS DE LA INSTALACIÓN</h3>
+            <div class="imagenes">
+                <img src="img/image.png" alt="pip install">
+                <img src="img/respuesta_web.png" alt="respuesta web">
+            </div>
+        </section>
+        <section>
+            <h3 id="faq">FAQ</h3>
+            <details>
+                <summary>¿Qué es PyInstrument?</summary>
+                <p>PyInstrument es un profiler para Python que permite analizar el rendimiento de un programa y detectar
+                    qué partes del código consumen más tiempo de ejecución.</p>
+            </details>
+            <details>
+                <summary>¿Cómo se instala PyInstrument?</summary>
+                <p>PyInstrument se puede instalar utilizando pip. Simplemente ejecute el siguiente comando en su
+                    terminal:</p>
+                <pre><code>pip install pyinstrument</code></pre>
+            </details>
+            <details>
+                <summary>¿Diferencias con CProfile?</summary>
+                <p>CProfile es un profiler más básico y de bajo nivel que se incluye con Python. PyInstrument, por otro
+                    lado, es más fácil de usar y proporciona una visualización más clara de los datos de rendimiento.
+                    Además, PyInstrument utiliza muestreo en lugar de seguimiento, lo que significa que tiene menos
+                    impacto en el rendimiento de la aplicación.
+                </p>
+            </details>
+        </section>
+
+        <section>
+            <form action="">
+                <h3 id="contacto">FORMULARIO DE CONTACTO</h3>
+                <fieldset>
+                    <legend>DATOS BÁSICOS DE INFORMACIÓN</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="NOMBRE COMPLETO">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" placeholder="APELLIDOS COMPLETOS">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@dominio.com">
+                </fieldset>
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" placeholder="escriba su mensaje completo......"></textarea>
+                <input class="enviar-form" type="submit" value="ENVIAR">                
+            </form>
+        </section>
+
+
+    </main>
+</body>
+
+</html>
