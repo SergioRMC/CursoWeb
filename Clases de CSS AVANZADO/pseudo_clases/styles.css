@@ -1,0 +1,79 @@
+body{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+h1{
+    color:red;
+    font-family: sans-serif;
+    margin: 30px;
+}
+/**PASANDO EL MOUSE POR ENCIMA DEL H1 */
+h1:hover{
+    color: blue;
+}
+/**CUANDO SE HACE CLICK EN EL H1 */
+h1:active{
+    color: greenyellow;
+}
+/**SELECCIONANDO EL PRIMER LI */
+li:first-child{
+    color: blue;
+}
+/**SELECCIONAR EL ULTIMO LI */
+li:last-child{
+    color: red;
+}
+li:nth-child(3){
+    color: green;
+}
+/**SELECCIONA EL NUMERO CORRESPONDIENTE SALTANDOSE ELEMENTOS QUE NO CUMPLAN SU TIPADO */
+li:nth-of-type(2n){
+    background-color: grey;
+}
+/**APLICA CONDICIONES SIEMPRE QUE NO SEAN EL ELEMENTO 4 */
+.lista li:not(.elem-4){
+    color: white;
+}
+/**APLICA LA CONDICIÓN EN CASO DE QUE ESTE VACÍO */
+div:empty{
+    background-color: greenyellow;
+    padding: 30px;
+}
+/** APLICA LA CONDICIÓN CON EL ESTADO DE CHECK DEL INPUT */
+input[type=checkbox]:checked{
+    margin: 50px;
+}
+/**SELECCIONA ENLACES NO VISITADOS */
+a:visited{
+    color: pink;
+}
+/**QUE EL FORMATO DEL INPUT SEA INVÁLIDO SE CUMPLE  */
+input:invalid{
+    background-color: red;
+}
+/**SI EL FORMATO ES VALIDO SE APLICA */
+input:valid{
+    background-color: rgb(194, 252, 194);
+}
+/** agrupas elementos y los modificas */
+section :is(.parrafo1, .parrafo2, .parrafo3){
+    color: red;
+    margin: 5px;
+}
+/**lo mismo que el is pero sin cambiar el nivel de prioridad de los elementos */
+section :where(.parrafo1, .parrafo2, .parrafo3){
+    color: blue;
+    margin: 5px;
+}
+/**esto lo que hace es cambiar el section si tiene una class como esa */
+section:has(.parrafo2){
+    background-color: rgb(134, 94, 94);
+}
+/**esto lo que hace es modificar un ul que tiene n div despues */
+ul:has(+div){
+    background-color:chartreuse ;
+}
+/**esto lo que hace es modificar un label que tiene un input valido */
+label:has(+input:valid){
+    color: green;
+}
