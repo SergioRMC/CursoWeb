@@ -1,0 +1,34 @@
+div{
+    padding: 30px;
+}
+/**cambio de la primera letra de la palabra */
+h1::first-letter{
+    font-size: 50px;
+    color: red;
+}
+/**cambio de la primera linea que tiene un div */
+div::first-line{
+    color: blue;
+}
+/**al seleccionar un elemento como para hacer la copia y pega lo cambo de color */
+div::selection{
+    background-color: green;
+}
+/**cambio de color de placeholder */
+input::placeholder{
+    color: orange;
+}
+/**cambio de los marcadores que tienen los li */
+li::marker{
+    color: springgreen;
+}
+/**coloca un texto antes del elemento que no es posible de seleccionar */
+li::before{
+    content: 'before  ';
+    color:red
+}
+/**igual que el before pero colocado en otro sitio */
+li:after{
+    content: '  after';
+    color: blue;
+}
