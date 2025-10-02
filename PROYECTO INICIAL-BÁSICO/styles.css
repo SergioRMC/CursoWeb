@@ -31,8 +31,15 @@ header{
     justify-content: center;
     flex-wrap: wrap;
 }
+.FaQ{
+    margin: 30px;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
 summary{
     background-color: #dad6d6;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 details[open]{
     background-color: #5a9367;
