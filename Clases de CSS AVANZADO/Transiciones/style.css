@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.box{
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    margin-top: 50px;
+    transition: left;
+    transition-timing-function: cubic-bezier(.33,.86,.86,.84);
+    transition-duration: 1s;
+    position: relative;
+    left: 0;
+    
+}
+body:hover .box{
+    left: 400px;
+    
+}
