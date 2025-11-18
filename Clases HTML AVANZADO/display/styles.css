@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+div{
+    padding: 20px;
+    background-color: #999;
+}
+/**dar propiedad display=block para que sean elementos en bloque y no elementos en linea */
+.item__block{
+    background-color: red;
+    color: white;
+    display: block;
+    border: 2px solid black;
+    margin: 20px;
+}
+/**poner un elemento que es bloque ahora es en linea */
+p{
+    background-color: blue;
+    color: white;
+    display: inline;
+    margin: 20px;
+}
+nav{
+    background-color: #ccdad1;
+}
+.nav__list{
+    margin: 0;
+    text-align: center;
+}
+.nav__item{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+.nav__link{
+    color: white;
+    text-decoration: none;
+}
+.nav__link:hover{
+    color: black;
+}
+.link--button{
+    border: 2px solid #e21818;
+    background-color: #48e;
+    padding: 4px 18px;
+    border-radius: 3px;
+    margin-left: 24px;
+}
+.link--button:hover{
+    background-color: transparent;
+    color: #fff;
+}
