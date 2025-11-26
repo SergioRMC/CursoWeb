@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    background-color: #ccc;
+}
+.box{
+    height: 220px;
+    width: 220px;
+    background-color: white;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    left: 0;
+    overflow: auto;
+}
