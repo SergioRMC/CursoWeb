@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.flex-item{
+    width: 400px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+.flex-item:first-child{
+    background-color: rgb(240, 102, 102);
+}
