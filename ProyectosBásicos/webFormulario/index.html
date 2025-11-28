@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+    <form action="" class="formulario">
+        <h2 class="title">FORMULARIO DE CONTACTO</h2>
+        <fieldset>
+            <legend>IMFORMACIÓN PERSONAL</legend>
+            <div class="form-input">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" placeholder="Escriba su nombre" class="bkg-white">
+            </div>
+            <div class="form-input">
+                <label for="surname">Apellidos</label>
+                <input type="text" id="surname" placeholder="Escriba los dos apellidos" class="bkg-white">
+            </div>
+            <div class="form-input">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" placeholder="ejemplocorreo@tuejemplo.es" class="bkg-white">
+            </div>
+        </fieldset>
+        <div class="form-input">
+            <label for="genre">Género</label>
+            <select name="genre" id="genre" class="bkg-white">
+                <option value="options">elección de género</option>
+                <option value="female">Mujer</option>
+                <option value="male">Hombre</option>
+                <option value="no-mark">No marcar</option>
+            </select>
+        </div>
+        <div class="form-input">
+            <label for="subject">Asunto</label>
+            <input type="text" name="subject" id="subject" class="bkg-white">
+        </div>
+        <div class="form-input">
+            <h3>Condiciones de uso</h3>
+            <label for="condition">Acepto las condiciones</label>
+            <input type="radio" name="condition" class="radio">
+            <label for="condition">No acepto las condiciones</label>
+            <input type="radio" name="condition" class="radio">
+        </div>
+        <div class="form-input">
+            <label for="mesaje">Mensaje</label>
+            <textarea name="mesaje" id="mesaje" rows="8" placeholder="Escriba su mensaje aqui....." class="bkg-white"></textarea>
+        </div>
+
+        <div>
+            <input class="form-input btn" type="submit" placeholder="enviar">
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #AAC4F5;
+}
+
+.formulario{
+    background-color: #FFF2C6;;
+    margin: auto;
+    margin-top: 100px;
+    width: 70%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 5%;
+    box-shadow: 10px 0px 100px 0px #FFF8DE;
+}
+.title{
+    text-align: center;
+}
+fieldset{
+    margin: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #AAC4F5;
+    padding: 10px;
+}
+legend{
+    padding: 20px;
+}
+label{
+    font-weight: bold;
+    line-height: 2;
+}
+.form-input{
+    margin: 10px;
+}
+input, textarea, select{
+    padding: 10px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-right: 2px solid #8CA9FF;
+    border-bottom: 2px solid #8CA9FF;
+    box-sizing: border-box;
+    border-radius: 3%;
+    
+}
+.radio{
+    width: auto;
+}
+
+textarea{
+    min-width: 100%;
+    resize: none;
+    min-height: 105px;
+    font-family: sans-serif;
+}
+input:focus-visible{
+    outline: none;
+}
+textarea:focus-visible{
+    outline: none;
+}
+select:focus-visible{
+    outline: none;
+}
+.btn{
+    width: 20%;
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: #AAC4F5;
+    border-radius: 5%;
+}
+.btn:hover{
+    background-color: #8CA9FF;
+}
+.bkg-white:hover{
+    background-color: #FFF8DE;
+}
