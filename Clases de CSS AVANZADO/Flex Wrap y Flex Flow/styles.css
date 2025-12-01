@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.flexbox{
+    display: flex;
+    flex-flow: column wrap;
+    height: 100vh;
+}
+.flex-item{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+.flex-item:first-child{
+    background-color: rgb(240, 102, 102);
+}
