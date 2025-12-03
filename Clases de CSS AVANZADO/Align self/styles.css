@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+.flexbox{
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    border: 2px solid black;
+    margin: 30px;
+    height: 300px;
+
+}
+.flex-item{
+    
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background-color: red;
+    flex: 1 1 200px;
+}
+.item-5{
+    align-self: end;
+}
+.flex-item:first-child{
+    background-color: rgb(240, 102, 102);
+}
+.flex-item:last-child{
+    background-color: black;
+}
