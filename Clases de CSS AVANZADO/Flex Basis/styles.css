@@ -1,31 +1,31 @@
 body{
     margin: 0;
     font-family: sans-serif;
+    background-color: #ccc;
 }
 
 .flexbox{
+    background-color: white;
     display: flex;
-    flex-flow: wrap;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: center;
     border: 2px solid black;
     margin: 30px;
-    justify-content: space-evenly;
-    align-content: space-evenly;
-    height: 400px;
+    gap: 10px;
+
 }
 .flex-item{
-    width: 200px;
+    
     font-size: 40px;
-    background-color: red;
     text-align: center;
     color: white;
-    order: 4;
+    background-color: red;
+    flex: 1 1 250px;
 }
 .flex-item:first-child{
     background-color: rgb(240, 102, 102);
-    order: 1;
-    
 }
 .flex-item:last-child{
     background-color: black;
-    order: 3;
 }
