@@ -1,0 +1,59 @@
+{
+    "element": {
+        "id": {
+            "source": "row_id"
+        },
+        "numElements": {
+            "source": "row",
+            "field": "numElements",
+            "default": 0
+        },
+        "numElementsLimited": {
+            "source": "row",
+            "field": "numElementsLimited",
+            "default": false
+        },
+        "elements": {
+            "source": "row",
+            "field": "elements",
+            "default": []
+        },
+        "otts": {
+            "source": "row",
+            "field": "otts",
+            "optional": true
+        }
+    },
+    "home": {
+        "title": {
+            "source": "home_info",
+            "field": "title"
+        },
+        "trackId": {
+            "source": "home_info",
+            "field": "track_id"
+        },
+        "numRows": {
+            "calc": "numRows",
+            "source": "page_info",
+            "field": "row_ids"
+        },
+        "from": {
+            "source": "from_row"
+        },
+        "count": {
+            "calc": "count",
+            "field": "rows_in_response"
+        },
+        "rows": {
+            "source": "rows_in_response"
+        },
+        "rowTypes": {
+            "source": "row_types"
+        },
+        "sessionId": {
+            "source": "page_info",
+            "field": "sessionId"
+        }
+    }
+}
