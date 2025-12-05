@@ -13,7 +13,7 @@ body{
 }
 
 .form{
-    background-color: #cccccc1a;
+    background-color: #3d3c3c1a;
     max-width: 50%;
     padding: 20px;
     border-radius: 30px;
@@ -35,5 +35,18 @@ input{
     text-align: center;
     background-color: #ffffff00;
     color: #fff;
+}
+.btn{
+    width: 20%;
+    display: block;
+    margin: auto;
+    border: 2px solid #47a0f3;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 10px;
+}
+.btn:hover{
+    border-radius: 30px;
+    background-color: #47a0f3;
 }
 
