@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+NO:wght@100..400&family=Science+Gothic:wght@100..900&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap');
+body{
+    font-family: "Science Gothic", serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/bkgpolice.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.form{
+    background-color: #cccccc1a;
+    max-width: 50%;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 20px 20px 40px 5px;
+}
+.form__input{
+    margin: 20px;
+}
+label{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+input{
+    width: 100%;
+    border: none;
+    font-size: 1.7rem;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #ffffff00;
+    color: #fff;
+}
+
